@@ -275,6 +275,9 @@ ETHEREUM_JSONRPC_TRACE_URL=https://rpc.poa.psdk.io:8545
 DATABASE_URL=postgresql://blockscout:Passw0Rd@db.instance.local:5432/blockscout
 SECRET_KEY_BASE=VTIB3uHDNbvrY0+60ZWgUoUBKDn9ppLR8MI4CpRz4/qLyEFs54ktJfaNT6Z221No
 HEART_COMMAND="systemctl start explorer.service"
+TRACE_FIRST_BLOCK=false
+TRACE_LAST_BLOCK=false
+INDEXER_DISABLE_INTERNAL_TRANSACTIONS_FETCHER=true
 ```
 Save the file and exit.
 
