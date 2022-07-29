@@ -983,7 +983,7 @@ module.exports = {
           items: [
               "edge/configuration/sample-config",
               "edge/configuration/manage-private-keys",
-              "edge/configuration/enable-metrics",
+              "edge/configuration/prometheus-metrics",
               {
                   type: "category",
                   label: "Secret Managers",
@@ -998,6 +998,7 @@ module.exports = {
               }
           ]
       },
+      "edge/validator-hosting",
       {
           type: "category",
           label: "Working with a node",
